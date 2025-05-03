@@ -4,9 +4,7 @@
 
 ## 1 Introduction
 
-This is a description of the code used for the experiments described in the paper entitled *Relational Similarity-Guided Community Search on Semantic-Rich Graphs*. The code is available at [4open.science](https://anonymous.4open.science/r/SEA-9BE2/README.md).
-
-$\color{red}{链接未改！}$
+This is a description of the code used for the experiments described in the paper entitled *Relational Similarity-Guided Community Search on Semantic-Rich Graphs*.
 
 We evaluated our **R**elational **S**imilarity-Guided **C**ommunity **S**earch on Semantic-Rich Graphs (RSCS) in terms of effectiveness and efficiency for $(k,\textsf{SMP})$-core on semantic-rich graphs. We provide three versions of our own methods, see Table 1.
 
