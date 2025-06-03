@@ -194,7 +194,7 @@ community nodes:[458758, 2490405, 4964431, 2277414, 7028846, ...]
 
 #### 4.3 Case
 
-We discuss how to obtain all relevant information for the case study, including the node set and the P\*edge set. The node set contains three types of information: node ID, the name of the entity corresponding to the node ID, and the entity category (label). The P\*-edge set contains four types of information: the starting node, the ending node, the -P\*edge, and the SC of the -P\*edge. These pieces of information constitute the case study in the paper.
+We discuss how to obtain all relevant information for the case study, including the node set and the P\*edge set. The node set contains three types of information: node ID, the name of the entity corresponding to the node ID, and the entity category (label). The P\*-edge set contains four types of information: the starting node, the ending node, the P\*-edge, and the SC of the P\*-edge. These pieces of information constitute the case study in the paper.
 
 Case methods employ identical parameters: a *relation file path*, a *similarity file path*, a *graph file path*, a *node type file path*, a *query relation*, a *type id* of anchor node, a length bound *l*, a query *k*, a threshold $\tau$, a *result of node set file path*, a *result* P\*-*edge set file path*, an *entity file path*. Here is an example of parameter input.
 
