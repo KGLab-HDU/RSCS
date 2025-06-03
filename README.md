@@ -194,9 +194,9 @@ community nodes:[458758, 2490405, 4964431, 2277414, 7028846, ...]
 
 #### 4.3 Case
 
-We discuss how to obtain all relevant information for the case study, including the node set and the $\mathcal{P}^*$-edge set. The node set contains three types of information: node ID, the name of the entity corresponding to the node ID, and the entity category (label). The $\mathcal{P}^*$-edge set contains four types of information: the starting node, the ending node, the $\mathcal{P}^*$-edge, and the SC of the $\mathcal{P}^*$-edge. These pieces of information constitute the case study in the paper.
+We discuss how to obtain all relevant information for the case study, including the node set and the P\*edge set. The node set contains three types of information: node ID, the name of the entity corresponding to the node ID, and the entity category (label). The P\*-edge set contains four types of information: the starting node, the ending node, the -P\*edge, and the SC of the -P\*edge. These pieces of information constitute the case study in the paper.
 
-Case methods employ identical parameters: a *relation file path*, a *similarity file path*, a *graph file path*, a *node type file path*, a *query relation*, a *type id* of anchor node, a length bound *l*, a query *k*, a threshold $\tau$, a *result of node set file path*, a *result* $\mathcal{P}^*$-*edge set file path*, an *entity file path*. Here is an example of parameter input.
+Case methods employ identical parameters: a *relation file path*, a *similarity file path*, a *graph file path*, a *node type file path*, a *query relation*, a *type id* of anchor node, a length bound *l*, a query *k*, a threshold $\tau$, a *result of node set file path*, a *result* P\*-*edge set file path*, an *entity file path*. Here is an example of parameter input.
 
 ```
 Case: 
@@ -216,7 +216,7 @@ entityFilePath = ""
 java -jar RSCS-main.jar test.Case.CaseTest ${relationFilePath} ${similarityFilePath} ${graphFilePath} ${vertexTypeFilePath} ${queryRelation} ${AaType} ${queryID} ${l} ${queryK} ${tao} ${writeNodeFilePath} ${writeEdgeFilePath} ${entityFilePath}
 ```
 
-We still use the reduced *DBpedia* for testing with the following experimental parameters, and redirect the output of console to test.txt. It should be noted that the node set and the $\mathcal{P}^*$-edge set are stored separately in different designated files. All required files are stored in the **data** folder.
+We still use the reduced *DBpedia* for testing with the following experimental parameters, and redirect the output of console to test.txt. It should be noted that the node set and the P\*-edge set are stored separately in different designated files. All required files are stored in the **data** folder.
 
 ```
 Case: 
@@ -277,7 +277,7 @@ id	name	label
 ...
 ```
 
-Here is the output of $\mathcal{P}^*$-edge set for the above query example:
+Here is the output of P\*-edge set for the above query example:
 
 ```
 source	target	label	weight
